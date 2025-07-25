@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import os
-from functools import wraps
 from audio_sync import AudioSyncProcessor
 
 app = Flask(__name__)
